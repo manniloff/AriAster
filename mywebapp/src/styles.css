@@ -1,0 +1,34 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "assets/fonts/roboto/roboto.css";
+
+* {
+    font-family: 'Roboto';
+}
+
+
+.c-disabled {
+    pointer-events: none;
+}
+
+.ant-btn-danger {
+    color: #ff4d4f;
+    background-color: #fff;
+    border-color: #ff4d4f;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+}
+
+.ant-btn-danger:hover {
+    border-color: #ff0000;
+    color: #ff0000;
+    background-color: #fff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+}
+
+.ant-btn-danger:focus {
+    color: #ff4d4f;
+    background-color: #fff;
+    border-color: #ff4d4f;
+}
